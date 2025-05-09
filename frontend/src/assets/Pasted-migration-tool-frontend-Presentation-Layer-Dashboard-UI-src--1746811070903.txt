@@ -1,0 +1,103 @@
+migration-tool/
+│
+├── frontend/                  # Presentation Layer (Dashboard UI)
+│   ├── src/
+│   │   ├── components/        # Reusable components
+│   │   ├── pages/             # Dashboard pages
+│   │   ├── services/          # Services for API Gateway communication
+│   │   └── assets/            # Static resources
+│   └── public/
+│
+├── api-gateway/               # API Gateway
+│   ├── src/
+│   │   ├── routes/            # Route definitions
+│   │   ├── middlewares/       # Authentication, validation middlewares, etc.
+│   │   └── services/          # Services for microservices communication
+│   └── config/                # Gateway configuration
+│
+├── infrastructure-services/   # Infrastructure Services
+│   ├── authentication-service/   # Authentication Service
+│   │   ├── src/
+│   │   ├── tests/
+│   │   └── Dockerfile
+│   │
+│   ├── monitoring-service/       # Monitoring Service
+│   │   ├── src/
+│   │   ├── tests/
+│   │   └── Dockerfile
+│   │
+│   └── encryption-service/       # Encryption Service
+│       ├── src/
+│       ├── tests/
+│       └── Dockerfile
+│
+├── connector-services/        # Connector Services
+│   ├── salesforce-connector/     # Salesforce Connector
+│   │   ├── src/
+│   │   ├── tests/
+│   │   └── Dockerfile
+│   │
+│   ├── oauth-provider/           # OAuth Provider
+│   │   ├── src/
+│   │   ├── tests/
+│   │   └── Dockerfile
+│   │
+│   ├── api-rate-limiter/         # API Rate Limiter
+│   │   ├── src/
+│   │   ├── tests/
+│   │   └── Dockerfile
+│   │
+│   └── hubspot-connector/        # HubSpot Connector
+│       ├── src/
+│       ├── tests/
+│       └── Dockerfile
+│
+├── etl-services/              # ETL Services
+│   ├── extract-services/         # Extract Services
+│   │   ├── contact-extractor/
+│   │   ├── company-extractor/
+│   │   ├── deal-extractor/
+│   │   ├── attachments-extractor/
+│   │   ├── activities-extractor/
+│   │   └── custom-object-extractor/
+│   │
+│   ├── transform-services/       # Transform Services
+│   │   ├── field-mapping-service/
+│   │   ├── data-cleansing-service/
+│   │   ├── deduplication-service/
+│   │   └── relationship-service/
+│   │
+│   └── load-services/            # Load Services
+│       ├── contact-loader/
+│       ├── company-loader/
+│       ├── deal-loader/
+│       ├── attachment-loader/
+│       ├── engagement-loader/
+│       └── custom-object-loader/
+│
+├── data-infrastructure/       # Data Infrastructure Layer
+│   ├── staging-database/         # Staging Database
+│   ├── mapping-database/         # Mapping Database
+│   ├── cache-service/            # Cache Service
+│   ├── log-storage/              # Log Storage
+│   └── message-queue/            # Message Queue
+│
+├── devops/                    # DevOps Tools and Configuration
+│   ├── cicd/                     # CI/CD Pipeline Configuration
+│   ├── monitoring/               # Monitoring & Control
+│   ├── kubernetes/               # Kubernetes Configuration
+│   └── terraform/                # Infrastructure as Code
+│
+├── service-mesh/              # Service Mesh Configuration
+│   ├── istio/                    # Istio Configuration (if used)
+│   └── security/                 # Security Policies
+│
+├── docs/                      # Documentation
+│   ├── architecture/             # Architecture Documentation
+│   ├── api/                      # API Documentation
+│   └── user-guides/              # User Guides
+│
+└── scripts/                   # Utility Scripts
+    ├── deployment/               # Deployment Scripts
+    ├── testing/                  # Testing Scripts
+    └── migration/                # Migration Scripts
