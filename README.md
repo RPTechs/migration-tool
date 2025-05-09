@@ -39,14 +39,14 @@ The following core functionalities are included in the MVP release:
 
 ⚠️ **Platform Requirements & Limitations**
 This application requires Salesforce editions with API access enabled. It will only work with the following editions:
-✅ Supported Salesforce Editions (API access available):
 
+- ✅ Supported Salesforce Editions (API access available):
  - Enterprise Edition
  - Unlimited Edition
  - Developer Edition
  - Performance Edition
 
-❌ Unsupported Editions (API access not available by default):
+- ❌ Unsupported Editions (API access not available by default):
 - Group Edition
 - Essentials Edition
 - Professional Edition (API access may be available as an add-on)
