@@ -38,25 +38,18 @@ The following core functionalities are included in the MVP release:
 - **Migration Notifications:** Sends alerts at key milestones of the process.
 
 ⚠️ **Platform Requirements & Limitations**
-- This application requires Salesforce editions with API access enabled. It will only work with the following editions:
+This application requires Salesforce editions with API access enabled. It will only work with the following editions:
+✅ Supported Salesforce Editions (API access available):
 
---✅ Supported Salesforce Editions (API access available):
-
---- Enterprise Edition
-
---- Unlimited Edition
-
---- Developer Edition
-
---- Performance Edition
+ - Enterprise Edition
+ - Unlimited Edition
+ - Developer Edition
+ - Performance Edition
 
 ❌ Unsupported Editions (API access not available by default):
-
-Group Edition
-
-Essentials Edition
-
-Professional Edition (API access may be available as an add-on)
+- Group Edition
+- Essentials Edition
+- Professional Edition (API access may be available as an add-on)
 
 Please confirm your Salesforce license edition before using this application.
 
@@ -65,25 +58,20 @@ Please confirm your Salesforce license edition before using this application.
 Version 2 of the Migration Engine will build on the solid foundation of V1 by introducing advanced features focused on flexibility, performance optimization, and auditability. These enhancements will include:
 
 🔄 **Data Sync & Change Management**
-Incremental Migration: Support for delta updates to sync only modified records.
-
-Delta Validation: Validation of changes applied during incremental updates.
+- **Incremental Migration:** Support for delta updates to sync only modified records.
+- **Delta Validation:** Validation of changes applied during incremental updates.
 
 📊 **Insights & Auditability**
-Migration History: Full migration log with searchable historical records.
-
-Performance Analytics: Detailed performance metrics for migration tuning.
+- **Migration History:** Full migration log with searchable historical records.
+- **Performance Analytics:** Detailed performance metrics for migration tuning.
 
 HIPAA Compliance Support: Enhanced security features and audit trails for healthcare data.
 
 ⚙️ **Flexibility & Reusability**
-Migration Templates: Save and reuse migration configurations for similar projects.
-
-Custom Object Migration: Migration of Salesforce custom objects and fields.
-
-Association Label Configuration: Support for custom relationship labels between records.
-
-Business Unit Selection: Route data to specific business units in HubSpot.
+- **Migration Templates:** Save and reuse migration configurations for similar projects.
+- **Custom Object Migration:** Migration of Salesforce custom objects and fields.
+- **Association Label Configuration:** Support for custom relationship labels between records.
+- **Business Unit Selection:** Route data to specific business units in HubSpot.
 
 These features are targeted for future releases to accommodate more complex use cases, support compliance requirements, and enhance overall migration performance and reusability.
 
