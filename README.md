@@ -107,15 +107,19 @@ cd crm-migration-platform
 npm install
 ```
 
-3. Start the development server:
+3. Start the server:
 ```bash
 npm run build
 ```
 
 
-4. Start the development server:
+4. run app:
 ```bash
 npm start
+```
+
+```bash
+http://localhost:5001/
 ```
 
 ## Features
