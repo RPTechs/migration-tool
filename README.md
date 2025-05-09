@@ -64,8 +64,7 @@ Version 2 of the Migration Engine will build on the solid foundation of V1 by in
 📊 **Insights & Auditability**
 - **Migration History:** Full migration log with searchable historical records.
 - **Performance Analytics:** Detailed performance metrics for migration tuning.
-
-HIPAA Compliance Support: Enhanced security features and audit trails for healthcare data.
+- **HIPAA Compliance Support:** Enhanced security features and audit trails for healthcare data.
 
 ⚙️ **Flexibility & Reusability**
 - **Migration Templates:** Save and reuse migration configurations for similar projects.
