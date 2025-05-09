@@ -9,7 +9,7 @@ This application is a robust and secure CRM migration engine designed to enable 
 The following core functionalities are included in the MVP release:
 
 🔐 **Authentication & Connectivity**
-User Authentication: Secure login with username/password or SSO.
+- User Authentication: Secure login with username/password or SSO.
 
 CRM Platform Connection: OAuth/API-key based secure connection to Salesforce and HubSpot.
 
