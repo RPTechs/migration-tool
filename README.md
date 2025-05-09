@@ -9,27 +9,25 @@ This application is a robust and secure CRM migration engine designed to enable 
 The following core functionalities are included in the MVP release:
 
 🔐 **Authentication & Connectivity**
-- User Authentication: Secure login with username/password or SSO.
-- CRM Platform Connection: OAuth/API-key based secure connection to Salesforce and HubSpot.
+- **User Authentication:** Secure login with username/password or SSO.
+- **CRM Platform Connection:** OAuth/API-key based secure connection to Salesforce and HubSpot.
 
 ⚙️ **Migration Setup & Configuration**
-- Migration Configuration: UI to map fields between Salesforce and HubSpot.
-- Data Volume Estimation: Pre-migration object count and storage size report.
-- Data Filtering: Filter records based on configurable criteria (e.g., dates, status).
+- **Migration Configuration:** UI to map fields between Salesforce and HubSpot.
+- **Data Volume Estimation:** Pre-migration object count and storage size report.
+- **Data Filtering:** Filter records based on configurable criteria (e.g., dates, status).
 
 📥  **Data Handling Pipeline**
-- Data Extraction: Pulls object records from Salesforce using pagination and filters.
-- Data Cleansing: Removes nulls, fixes invalid formats, ensures consistency.
-- Deduplication: Identifies and removes duplicates based on custom rules.
-- Relationship Mapping: Preserves parent-child relationships between objects.
-- Data Loading: Uploads transformed records into HubSpot via API.
+- **Data Extraction:** Pulls object records from Salesforce using pagination and filters.
+- **Data Cleansing:** Removes nulls, fixes invalid formats, ensures consistency.
+- **Deduplication:** Identifies and removes duplicates based on custom rules.
+- **Relationship Mapping:** Preserves parent-child relationships between objects.
+- **Data Loading:** Uploads transformed records into HubSpot via API.
 
 🧩 **Automation & Smart Configuration**
-Automatic Pipeline Creation: Auto-generates pipelines in HubSpot based on triggers.
-
-Automatic Property Creation: Creates missing fields in HubSpot based on source schema.
-
-Lookup Property Creation: Supports creation of HubSpot lookup properties for related objects.
+- **Automatic Pipeline Creation:** Auto-generates pipelines in HubSpot based on triggers.
+- **Automatic Property Creation:** Creates missing fields in HubSpot based on source schema.
+- **Lookup Property Creation:** Supports creation of HubSpot lookup properties for related objects.
 
 📊 **Monitoring & Validation**
 Progress Monitoring: Visual dashboard to track migration progress.
