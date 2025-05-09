@@ -5,7 +5,7 @@
 ## Application Overview
 This application is a robust and secure CRM migration engine designed to enable seamless data migration from Salesforce to HubSpot. It ensures data integrity, automation, and compliance while allowing users to configure field mappings, monitor migration progress, and validate data accuracy post-migration. The system is built to handle complex object relationships and supports large data volumes with real-time monitoring and error recovery.
 
-## Features Included in Version 1 (MVP)
+## Features Included in Version 1
 The following core functionalities are included in the MVP release:
 
 🔐 **Authentication & Connectivity**
@@ -30,30 +30,25 @@ The following core functionalities are included in the MVP release:
 - **Lookup Property Creation:** Supports creation of HubSpot lookup properties for related objects.
 
 📊 **Monitoring & Validation**
-Progress Monitoring: Visual dashboard to track migration progress.
-
-Error Handling: Real-time error detection with retry logic and logs.
-
-Post-Migration Validation: Compares source and destination data for completeness.
-
-Sample Migration: Executes a 10% test migration with validation reports.
-
-Migration Rollback: Ability to reverse migrations to a previous clean state.
-
-Migration Notifications: Sends alerts at key milestones of the process.
+- **Progress Monitoring:** Visual dashboard to track migration progress.
+- **Error Handling:** Real-time error detection with retry logic and logs.
+- **Post-Migration Validation:** Compares source and destination data for completeness.
+- **Sample Migration:** Executes a 10% test migration with validation reports.
+- **Migration Rollback:** Ability to reverse migrations to a previous clean state.
+- **Migration Notifications:** Sends alerts at key milestones of the process.
 
 ⚠️ **Platform Requirements & Limitations**
-This application requires Salesforce editions with API access enabled. It will only work with the following editions:
+- This application requires Salesforce editions with API access enabled. It will only work with the following editions:
 
-✅ Supported Salesforce Editions (API access available):
+--✅ Supported Salesforce Editions (API access available):
 
-Enterprise Edition
+--- Enterprise Edition
 
-Unlimited Edition
+--- Unlimited Edition
 
-Developer Edition
+--- Developer Edition
 
-Performance Edition
+--- Performance Edition
 
 ❌ Unsupported Editions (API access not available by default):
 
