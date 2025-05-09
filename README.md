@@ -53,6 +53,22 @@ This application requires Salesforce editions with API access enabled. It will o
 
 Please confirm your Salesforce license edition before using this application.
 
+# 🛡️ Non-Functional Requirements
+
+In addition to its core functionality, the Migration Engine adheres to a set of non-functional requirements to ensure performance, reliability, and operational excellence:
+
+| **Non-Functional Requirement** | **Description** | **Fitness Function** |
+|-------------------------------|-----------------|----------------------|
+| **Scalability** | The system must efficiently handle migrations of various sizes, from small businesses (thousands of records) to enterprises (millions). | Execute load tests with dataset volumes increasing by orders of magnitude (10K, 100K, 1M records). Response time degradation must be sub-linear. |
+| **Performance** | Migration operations must maintain a throughput of at least 1,000 records/min under normal conditions. | Measure records processed per minute during standardized benchmark migrations. |
+| **Reliability** | The system must achieve 99.5% uptime and automatically recover from failures. | Simulated service crashes must result in recovery with zero data loss. |
+| **Security** | All data must be encrypted in transit and at rest, using industry-standard protocols. | Security scans must report no high or critical vulnerabilities. Pen tests must reveal no exploitable issues. |
+| **API Compliance** | The system must respect Salesforce and HubSpot API rate limits to prevent throttling. | Monitor API usage to remain under 80% of API rate limits in any 5-minute window. |
+| **Resilience** | The system must handle temporary outages or errors gracefully and retry operations. | Simulated network/API failures must trigger auto-retry and recovery mechanisms. |
+| **Observability** | All migration operations must be logged and traceable with correlation IDs. | Logs and metrics must cover every step and be accessible via observability tooling. |
+| **Data Integrity** | 100% field-level data accuracy must be preserved during migration. | Post-migration validation must confirm all fields match exactly between systems. |
+
+
 
 ## What's Coming in Version 2 (Planned)
 Version 2 of the Migration Engine will build on the solid foundation of V1 by introducing advanced features focused on flexibility, performance optimization, and auditability. These enhancements will include:
