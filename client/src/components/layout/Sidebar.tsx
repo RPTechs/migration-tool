@@ -3,7 +3,6 @@ import { Link, useLocation } from "wouter";
 // Define navigation items
 const primaryNavItems = [
   { label: "MIGRATIONS", icon: "exchange-alt", href: "/migrations" },
-  { label: "BACKUPS", icon: "database", href: "/backups" },
   { label: "ESTIMATES", icon: "calculator", href: "/estimates" },
 ];
 
@@ -29,10 +28,10 @@ const Sidebar = () => {
       <div className="p-4 border-b border-[#2a3b48]">
         <Link href="/" className="flex items-center space-x-2">
           <span className="text-xl font-bold">
-            Migrate<span className="text-[#e86c34]">My</span>CRM
+            Migration<span className="text-[#e86c34]">Tool</span>
           </span>
         </Link>
-        <div className="text-xs text-gray-400">by SyncMasters</div>
+        <div className="text-xs text-gray-400">by RevPartners</div>
       </div>
 
       <nav className="p-2 flex-grow">
